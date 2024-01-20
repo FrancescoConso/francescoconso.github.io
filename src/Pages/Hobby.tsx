@@ -8,7 +8,7 @@ export function Hobby() {
           <div className="three columns">
             <img
               className="u-max-full-width hobby-image"
-              src="public\assets\livecoding.jpg"
+              src="assets/livecoding.jpg"
             ></img>
           </div>
           <div className="nine columns">
