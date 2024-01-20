@@ -1,0 +1,37 @@
+.portrait-image {
+  border-radius: 50%;
+}
+
+.hobby-image {
+  border-radius: 10%;
+}
+
+.with-bottom-border {
+  border-bottom: solid 1px gray;
+}
+
+.with-upper-border {
+  border-top: solid 1px gray;
+}
+
+:root {
+  background-color: #e6ffff;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.bold-bigger {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+a {
+  color: dodgerblue; }
+a:hover {
+  color: #0FA0CE; }
