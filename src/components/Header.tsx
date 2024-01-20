@@ -3,7 +3,7 @@ export function Header() {
     <>
       <div className="container with-bottom-border">
         <div className="row">
-          <div className="three columns"><img className="u-max-full-width portrait-image" src="/assets/mescontornato.png" /></div>
+          <div className="three columns"><img className="u-max-full-width portrait-image" src="public\assets\mescontornato.png" /></div>
           <div className="nine columns">
             <h1>Francesco Consonni</h1>
             <h3>Software Developer</h3>
