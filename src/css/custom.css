@@ -32,6 +32,11 @@
 }
 
 a {
-  color: dodgerblue; }
+  color: darkblue;
+  text-decoration: underline;
+  font-weight: bold;
+}
 a:hover {
-  color: #0FA0CE; }
+  color: dodgerblue;
+  cursor: pointer;
+}
