@@ -73,11 +73,52 @@ export function Hobby() {
         <h2>Processing Sketches</h2>
         <p>
           I was introduced to Processing by a friend. The idea of having a
-          programming language with easy graphic output was very interesting. I
-          made a couple sketches, some with elements of sound reactivity. The
-          more interesting ones can be found on{" "}
+          programming language with easy graphic output was very interesting.
+          Over time I made different sketches, some with elements of sound
+          reactivity. The more interesting ones are shown here. You can find
+          their source code, along with more information of them on{" "}
           <a href="https://github.com/FrancescoConso">my GitHub</a>.
         </p>
+        <div className="row">
+          <div className="six columns">
+            <video controls className="u-max-full-width">
+              <source src="assets/Terraforming2.mp4" />
+            </video>
+          </div>
+          <div className="six columns">
+            <h4>
+              <a href="https://github.com/FrancescoConso/terraforming2">
+                Terraforming2
+              </a>
+            </h4>
+            <p>
+              Sound-reactive Processing sketch using the Minim library. Inspired
+              by 80's wireframe graphics. The sketch takes left and right audio
+              channels of an audio input, perform a Fourier Transform on it and
+              uses the values to change the elevation of the grid spots to draw
+              a "terraformed" grid based on the audio.
+              The result is in the video 
+            </p>
+          </div>
+        </div>
+        <div className="row">
+          <div className="six columns">
+            <img className="u-max-full-width" src="assets/EGAXmas.gif" />
+          </div>
+          <div className="six columns">
+            <h4>
+              <a href="https://github.com/FrancescoConso/EGAXmas">
+                EGAXmas
+              </a>
+            </h4>
+            <p>
+              Think of it as a digital Christmas Postcard. The idea was to play
+              with the limitations of EGA format (16 color, 640x360 maximum
+              resolution) and make something that could be posted on social
+              media for Christmas.
+            </p>
+          </div>
+        </div>
       </div>
     </>
   );
