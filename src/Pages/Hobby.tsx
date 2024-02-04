@@ -96,8 +96,10 @@ export function Hobby() {
               by 80's wireframe graphics. The sketch takes left and right audio
               channels of an audio input, perform a Fourier Transform on it and
               uses the values to change the elevation of the grid spots to draw
-              a "terraformed" grid based on the audio.
-              The result is in the video 
+              a "terraformed" grid based on the audio. The result is in the
+              video shown to the left. Be aware that at the end of the song it
+              will play some raw sounds that may damage your headphones or
+              speakers if played too high.
             </p>
           </div>
         </div>
@@ -107,9 +109,7 @@ export function Hobby() {
           </div>
           <div className="six columns">
             <h4>
-              <a href="https://github.com/FrancescoConso/EGAXmas">
-                EGAXmas
-              </a>
+              <a href="https://github.com/FrancescoConso/EGAXmas">EGAXmas</a>
             </h4>
             <p>
               Think of it as a digital Christmas Postcard. The idea was to play

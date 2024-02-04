@@ -25,7 +25,7 @@ export function Curriculum() {
               <li>Javascript</li>
               <li>Typescript</li>
               <li>React.js</li>
-              <li>Spring</li>
+              <li>Spring Framework</li>
             </ul>
           </div>
         </div>
@@ -122,7 +122,8 @@ export function Curriculum() {
           </div>
         </div>
         {/*  This comment is a separator */}
-        <div className="row with-bottom-border">
+        {/* <div className="row with-bottom-border"> */}
+        <div className="row ">
           <div className="two columns bold-bigger">
             <p>Management Consultant</p>
           </div>
