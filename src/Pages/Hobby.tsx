@@ -23,7 +23,7 @@ export function Hobby() {
         </div>
         <h2>Game Development</h2>
         <p>
-          Previous working experiences had me using Unity, and I keep on
+          Previous work experiences had me using Unity, and I keep on
           cultivating it as a hobby. I am also looking into Godot Engine, since
           it provides a freeware alternative to Unity. So far I published two
           small games:
@@ -75,7 +75,7 @@ export function Hobby() {
           I was introduced to Processing by a friend. The idea of having a
           programming language with easy graphic output was very interesting.
           Over time I made different sketches, some with elements of sound
-          reactivity. The more interesting ones are shown here. You can find
+          reactivity. The more interesting ones code-wise are shown here. You can find
           their source code, along with more information of them on{" "}
           <a href="https://github.com/FrancescoConso">my GitHub</a>.
         </p>
