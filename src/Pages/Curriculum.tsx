@@ -6,11 +6,36 @@ export function Curriculum() {
         {/*  This comment is a separator */}
         <div className="row with-bottom-border">
           <div className="two columns bold-bigger">
+            <p>IT Engineer</p>
+          </div>
+          <div className="two columns italic">
+            <p>Lunitek S.R.L.</p>
+            <p>April 2024 - Today </p>
+          </div>
+          <div className="six columns">
+            <p>
+              Development of back-end and companion apps for seismographics
+              sensors produced by the company.
+            </p>
+          </div>
+          <div className="two columns">
+            <ul>
+              <li>Java</li>
+              <li>Javascript</li>
+              <li>Typescript</li>
+              <li>React.js</li>
+              <li>Spring Framework</li>
+            </ul>
+          </div>
+        </div>
+        {/*  This comment is a separator */}
+        <div className="row with-bottom-border">
+          <div className="two columns bold-bigger">
             <p>Software Developer</p>
           </div>
           <div className="two columns italic">
             <p>La Spezia Container Terminal</p>
-            <p>September 2023 - Today </p>
+            <p>September 2023 - March 2024 </p>
           </div>
           <div className="six columns">
             <p>

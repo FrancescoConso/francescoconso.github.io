@@ -3,6 +3,7 @@ export function Hobby() {
     <>
       <div className="container">
         <h1>Hobby Projects</h1>
+        {/* THIS COMMENT IS A SEPARATOR */}
         <h2>Live Coding</h2>
         <div className="row">
           <div className="three columns">
@@ -21,7 +22,8 @@ export function Hobby() {
             </p>
           </div>
         </div>
-        <h2>Game Development</h2>
+        {/* THIS COMMENT IS A SEPARATOR */}
+        <h2>Unity Game Development</h2>
         <p>
           Previous work experiences had me using Unity, and I keep on
           cultivating it as a hobby. I am also looking into Godot Engine, since
@@ -70,6 +72,7 @@ export function Hobby() {
             </p>
           </div>
         </div>
+        {/* THIS COMMENT IS A SEPARATOR */}
         <h2>Processing Sketches</h2>
         <p>
           I was introduced to Processing by a friend. The idea of having a
