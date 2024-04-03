@@ -20,11 +20,8 @@ export function Curriculum() {
           </div>
           <div className="two columns">
             <ul>
-              <li>Java</li>
-              <li>Javascript</li>
-              <li>Typescript</li>
+              <li>Python</li>
               <li>React.js</li>
-              <li>Spring Framework</li>
             </ul>
           </div>
         </div>
