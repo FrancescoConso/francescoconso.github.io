@@ -4,6 +4,37 @@ export function Hobby() {
       <div className="container">
         <h1>Hobby Projects</h1>
         {/* THIS COMMENT IS A SEPARATOR */}
+        <h2>Godot Game Development</h2>
+        <p>
+          After controversial choices by Unity regarding their monetization
+          approach, I decided to move on to Godot, strong of my unity knowledge
+          to take advantage of its FOSS model and have full control over what I
+          do and create with it.
+        </p>
+        <div className="row">
+          <div className="three columns">
+            <img
+              className="u-max-full-width hobby-image"
+              src="https://img.itch.zone/aW1hZ2UvMjYyNDExMC8xNTYzNDI5Ny5wbmc=/original/UrUljn.png"
+            ></img>
+          </div>
+          <div className="nine columns">
+            <h4>
+              <a href="https://francescoconso.itch.io/judgment-target-practice">
+                Judgment: Target Practice
+              </a>
+            </h4>
+            <p>
+              My first complete project with Godot. A simple arcade shooter
+              inspired by Hogan's Alley on the NES. In every round, each with a
+              decreasing timer, hit the target that shows a criminal and not a
+              civilian or a guard/policeman. It is also tested and compatible
+              with the{" "}
+              <a href="https://sindenlightgun.com/"> Sinden Lightgun.</a>
+            </p>
+          </div>
+        </div>
+        {/* THIS COMMENT IS A SEPARATOR */}
         <h2>Live Coding</h2>
         <div className="row">
           <div className="three columns">
@@ -78,8 +109,8 @@ export function Hobby() {
           I was introduced to Processing by a friend. The idea of having a
           programming language with easy graphic output was very interesting.
           Over time I made different sketches, some with elements of sound
-          reactivity. The more interesting ones code-wise are shown here. You can find
-          their source code, along with more information of them on{" "}
+          reactivity. The more interesting ones code-wise are shown here. You
+          can find their source code, along with more information of them on{" "}
           <a href="https://github.com/FrancescoConso">my GitHub</a>.
         </p>
         <div className="row">

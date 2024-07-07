@@ -14,13 +14,16 @@ export function Curriculum() {
           </div>
           <div className="six columns">
             <p>
-              Development of back-end and companion apps for seismographics
-              sensors produced by the company.
+              R&D work on new features and Quality of Life improvements for the seismographs produced by Lunitek.
+            </p>
+            <p>
+              Graphical interface for projects commissioned by external partners. Communication of said interface with the hardware system using MQTT protocol.
             </p>
           </div>
           <div className="two columns">
             <ul>
               <li>Python</li>
+              <li>Javascript</li>
               <li>React.js</li>
             </ul>
           </div>
