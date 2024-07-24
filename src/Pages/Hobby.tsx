@@ -34,6 +34,24 @@ export function Hobby() {
             </p>
           </div>
         </div>
+        <div className="row">
+          <div className="three columns">
+            <img
+              className="u-max-full-width hobby-image"
+              src="assets/3dmaze.png"
+            ></img>
+          </div>
+          <div className="nine columns">
+            <h4>
+              <a href="https://francescoconso.github.io/3d-maze/">
+                3d-maze
+              </a>
+            </h4>
+            <p>
+              An experiment on deploying a Godot 3.5 application to a GitHub Pages website. It's also a tribute to the classic 3D Maze screensaver. Try to reach the center!
+            </p>
+          </div>
+        </div>
         {/* THIS COMMENT IS A SEPARATOR */}
         <h2>Live Coding</h2>
         <div className="row">

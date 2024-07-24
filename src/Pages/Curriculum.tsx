@@ -14,10 +14,10 @@ export function Curriculum() {
           </div>
           <div className="six columns">
             <p>
-              R&D work on new features and Quality of Life improvements for the seismographs produced by Lunitek.
+              R&D work on the new generation of Atlas seismometers to be released by Lunitek. Work on Quality of Life improvements and design and implementation of new functionalities.
             </p>
             <p>
-              Graphical interface for projects commissioned by external partners. Communication of said interface with the hardware system using MQTT protocol.
+              Graphical interface for project commissioned by external partner. Communication of said interface with the hardware system using MQTT protocol.
             </p>
           </div>
           <div className="two columns">
