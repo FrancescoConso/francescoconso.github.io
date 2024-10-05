@@ -14,17 +14,22 @@ export function Curriculum() {
           </div>
           <div className="six columns">
             <p>
-              R&D work on the new generation of Atlas seismometers to be released by Lunitek. Work on Quality of Life improvements and design and implementation of new functionalities.
+              R&D work on the new generation of Atlas and Sentinel seismometers
+              to be released by Lunitek. Work on Quality of Life improvements
+              for configuration and calibration process, design and
+              implementation of new functionalities for back-end and user
+              interface. Porting of the Sentinel graphical interface to React.
             </p>
             <p>
-              Graphical interface for project commissioned by external partner. Communication of said interface with the hardware system using MQTT protocol.
+              Graphical interface for project commissioned by external client in
+              the Aerospace and Defense field.
             </p>
           </div>
           <div className="two columns">
             <ul>
               <li>Python</li>
               <li>Javascript</li>
-              <li>React.js</li>
+              <li>React</li>
             </ul>
           </div>
         </div>

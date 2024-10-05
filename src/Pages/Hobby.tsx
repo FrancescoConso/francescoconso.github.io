@@ -15,6 +15,31 @@ export function Hobby() {
           <div className="three columns">
             <img
               className="u-max-full-width hobby-image"
+              src="https://img.itch.zone/aW1nLzE3MzI1MzIzLnBuZw==/original/OBamKD.png"
+            ></img>
+          </div>
+          <div className="nine columns">
+            <h4>
+              <a href="https://francescoconso.itch.io/john-shotgun-tech-demo">
+                John Shotgun [TECH DEMO]
+              </a>
+            </h4>
+            <p>
+              The project started with the idea of having a shooter game where
+              mobility was strongly dependant on aiming and shooting the gun.
+              The character is coded as a rigidbody, and shooting the gun
+              applies a varying force to it, that would let you jump higher or
+              further. However, it got to a point where it was more tedious than
+              fun to code, and I was not satisified with the final result.
+              Rather than let it die I decided to create a tech demo and upload
+              it for posterity.
+            </p>
+          </div>
+        </div>
+        <div className="row">
+          <div className="three columns">
+            <img
+              className="u-max-full-width hobby-image"
               src="https://img.itch.zone/aW1hZ2UvMjYyNDExMC8xNTYzNDI5Ny5wbmc=/original/UrUljn.png"
             ></img>
           </div>
@@ -43,12 +68,12 @@ export function Hobby() {
           </div>
           <div className="nine columns">
             <h4>
-              <a href="https://francescoconso.github.io/3d-maze/">
-                3d-maze
-              </a>
+              <a href="https://francescoconso.github.io/3d-maze/">3d-maze</a>
             </h4>
             <p>
-              An experiment on deploying a Godot 3.5 application to a GitHub Pages website. It's also a tribute to the classic 3D Maze screensaver. Try to reach the center!
+              An experiment on deploying a Godot 3.5 application to a GitHub
+              Pages website. It's also a tribute to the classic 3D Maze
+              screensaver. Try to reach the center!
             </p>
           </div>
         </div>
@@ -61,14 +86,20 @@ export function Hobby() {
               src="assets/livecoding.jpg"
             ></img>
           </div>
-          <div className="nine columns">
+          <div className="six columns">
             <p>
               In 2023 I learned about Live Coding and I got immediately invested
               in it. I am especially interested in the visuals creation aspect
               of it. To the left here's one of the few (confused) pictures I
               took at the first event I attended as a musician / visualist in
-              December 2023.
+              December 2023. The video is a snippet from the live visuals I did for a private party
+              in August 2024. 
             </p>
+          </div>
+          <div className="three columns">
+            <video controls className="u-max-full-width">
+              <source src="assets/kaleid.mp4" />
+            </video>
           </div>
         </div>
         {/* THIS COMMENT IS A SEPARATOR */}
