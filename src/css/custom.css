@@ -36,7 +36,12 @@ a {
   text-decoration: underline;
   font-weight: bold;
 }
+
 a:hover {
   color: dodgerblue;
   cursor: pointer;
+}
+
+.tiny {
+  font-size: 8px;
 }
